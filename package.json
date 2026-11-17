@@ -1,14 +1,14 @@
 {
   "name": "my-js-math-demo",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "node test.js"
   },
-  "author": "",
+  "description": "Companion consumer demo for @mdevrani/my-js-lib",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@mdevrani/my-js-lib": "^1.0.0"
   }
